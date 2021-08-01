@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./passgen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Online Password Generator</title>
+</head>
+<body>
+
+    <!--Password bg container start-->
+
+    <div id="pass_bg_container">
+
+<!--Text container start-->
+
+<div id="text_container">
+<h1><u>Online<br>Password Generator</u></h1>
+<h3>Using HTML, CSS, JS</h3>
+</div>
+
+<!--Text container end-->
+
+<!--Pass container start-->
+
+<div id="pass_container">
+
+
+<div id="result_container">
+<h1 id="displayarea"><input type="text" value="Generate Password" id="resbox"></h1>
+</div>    
+<div id="copy_div" >
+    <input type="text" placeholder="Max Size: 15" id="length">
+    <button type="button" onclick="copytext()" id="copy_btn"><h3 id="changingtext">Copy</h3><i id="ico" class="fa fa-copy"  style="font-size:24px"></i></button>
+</div>
+
+<div id="condition_container">
+<input type="checkbox" id="lower"><label for="lower"> Lowercase</label> <br>
+<input type="checkbox" id="upper"><label for="upper"> Uppercase</label> <br>
+<input type="checkbox" id="number"><label for="number"> Numbers</label> <br>
+<input type="checkbox" id="specchar"><label for="specchar"> Special characters</label> <br>
+<button type="button" id="gen_btn" onclick="genpass()">Generate Password</button>
+</div>
+
+</div>
+
+<!--Pass container end-->
+
+    </div>
+
+    <!--Password bg container end-->
+    
+    
+
+
+    <script src="./passgen.js"></script>
+</body>
+</html>

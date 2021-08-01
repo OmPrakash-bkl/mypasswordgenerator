@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pass_bg_container {
+    height: 41.05rem;
+    width: 100%;
+    background: linear-gradient(to right, rgb(97, 255, 255), rgb(83, 83, 255));
+}
+
+#text_container {
+    float: left;
+    width: 50%;
+    margin: 13rem 1rem;
+
+    text-align: center;
+}
+#text_container h1 {
+    font-size: 4rem;
+    color: rgb(44, 44, 44);
+}
+
+#text_container h3 {
+    font-size: 2rem;
+    color:rgb(44, 44, 44);
+}
+#pass_container {
+    height: 82%;
+    width: 30%;
+    border: 0rem solid rgb(44, 44, 44);
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0rem 0.7rem rgb(44, 44, 44);
+    float: right;
+    padding: 1rem 0.5rem 1rem 0rem;
+    margin: 3rem 3rem;
+    background-color: rgb(12, 12, 12);
+}
+#result_container {
+    height: 13%;
+    width: 95%;
+    margin: 0.3% 3% 0.3% 3%;
+    border: 0.15rem solid rgb(44, 44, 44);
+    border-radius: 0.3rem;
+    background-color:rgb(39, 39, 39);
+    padding: 0.3rem 0.2rem;
+  color: rgb(236, 236, 236);
+}
+#resbox {
+    height: 3rem;
+    width: 100%;
+    margin: 0rem auto;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 0rem;
+    outline: none;
+}
+
+#result_container h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#copy_div {
+    clear: both;
+}
+#copy_div input {
+background-color: rgb(236, 236, 236);
+float: left;
+margin: 1rem 0rem 0.2rem 1rem;
+height: 1.8rem;
+width: 35%;
+border: 0.15rem solid rgb(44, 44, 44);
+outline: none;
+border-radius: 0.3rem;
+}
+
+#copy_btn {
+    background-color: rgb(12, 12, 12);
+    border: none;
+    color: rgb(236, 236, 236);
+    float: right;
+    margin: 0.5rem 0.5rem 0.2rem 0rem;
+    outline: none;
+    cursor: pointer;
+    
+}
+#copy_btn h3 {
+    display: inline-block;
+    margin: 0.5rem 0.3rem 0.2rem 0rem;
+    cursor: pointer;
+    outline: none;
+}
+
+#condition_container {
+    height: 75%;
+    width: 95%; 
+    margin: 15% 3% 0.3% 3%;
+}
+
+#condition_container label {
+    color: rgb(236, 236, 236);
+    font-size: 2rem;
+    cursor: pointer;
+   
+}
+#condition_container input {
+    height: 1rem;
+    width: 1rem;
+    margin: 2rem 0rem;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+#gen_btn {
+    height: 12%;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, rgb(97, 255, 255), rgb(83, 83, 255));
+    cursor: pointer;
+    color:rgb(10, 10, 10);
+}
+
+@media only screen and (max-width:1285px) {
+    #text_container h1 {
+        font-size: 3rem;
+        color: rgb(44, 44, 44);
+    }
+    
+    #text_container h3 {
+        font-size: 1.5rem;
+        color:rgb(44, 44, 44);
+    }
+}
+@media only screen and (max-width:1468px) {
+    #resbox {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:1131px) {
+    #condition_container label {
+        font-size: 1.5rem;
+    }
+    #pass_container {
+        height: 80%;
+    }
+    #condition_container {
+        margin: 20% 3% 0.3% 3%;
+    }
+   
+    #resbox {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1105px) {
+    
+    #pass_container {
+        height: 82%;
+    }
+}
+
+@media only screen and (max-width:981px) {
+    #text_container {
+        width: 100%;
+        margin: 3rem 0rem;
+    }
+    #pass_container {
+        height: 65%;
+        width: 80%;
+       margin: 10% 10%;
+    }
+    #pass_bg_container {
+        height: 70rem;
+        background: linear-gradient(to top, rgb(97, 255, 255), rgb(83, 83, 255));
+    }
+   
+    #resbox {
+        font-size: 2.5rem;
+    }
+    #result_container {
+        height: 10%;
+    }
+
+}
+
+@media only screen and (max-width:848px) {
+    #pass_container {
+        height: 55%;
+    }
+
+}
+
+
+@media only screen and (max-width:560px) {
+    #pass_container {
+        height: 50%;
+    }
+    #text_container h1, h3 {
+        margin: auto 1%;
+    }
+    #resbox {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:430px) {
+    #resbox {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    #condition_container input {
+        margin: 1rem 0rem;
+    }
+    #copy_div input {
+        margin-bottom: 2rem;
+    }
+    #condition_container  {
+        margin-top: 40%;
+    }
+    #gen_btn {
+        font-size: 1.2rem;
+        margin: 2rem 0rem;
+    }
+    #pass_container {
+        height: 55%;
+    }
+    #pass_bg_container {
+        height: 55rem;
+    }
+    #result_container {
+        height: 12%;
+    }
+}
+@media only screen and (max-width:320px)  {
+    #resbox {
+        font-size: 1.0rem;
+    }
+}
