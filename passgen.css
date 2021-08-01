@@ -130,6 +130,7 @@ border-radius: 0.3rem;
     background: linear-gradient(to right, rgb(97, 255, 255), rgb(83, 83, 255));
     cursor: pointer;
     color:rgb(10, 10, 10);
+    outline: none;
 }
 
 @media only screen and (max-width:1285px) {
